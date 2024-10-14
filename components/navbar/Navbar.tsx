@@ -48,9 +48,9 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            {/* <a href="#" className="text-sm font-semibold leading-6 text-black">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a> */}
+            <a href="commercial@clicktour.travel" className="text-sm font-semibold leading-6 text-black">
+             Contact us
+            </a>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>

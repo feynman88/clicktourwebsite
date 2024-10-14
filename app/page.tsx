@@ -189,7 +189,7 @@ export default function Home() {
 
 
 
-{/* enviroment */}
+{/* environment */}
  <div className="relative isolate overflow-hidden bg-white ">
       <div className="relative px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <video autoPlay loop muted playsInline className="absolute inset-0 -z-10 h-full w-full object-cover">
