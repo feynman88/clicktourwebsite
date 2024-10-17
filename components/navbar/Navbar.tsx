@@ -48,7 +48,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="commercial@clicktour.travel" className="text-sm font-semibold leading-6 text-black">
+            <a href="mailto:commercial@clicktour.travel" className="text-sm font-semibold leading-6 text-black">
              Contact us
             </a>
           </div>
@@ -67,7 +67,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
-                <Image src={XMarkIcon} className="h-6 w-6" alt="Close" width={24} height={24} />
+                <Image src={XMarkIcon} className="h-6 w-6 " alt="Close" width={24} height={24} />
               </button>
             </div>
             <div className="mt-6 flow-root">
@@ -81,9 +81,14 @@ export default function Navbar() {
                     >
                       {item.name}
                     </a>
+                    
                   ))}
                 </div>
+            
               </div>
+                  <a href="mailto:commercial@clicktour.travel" className="text-sm font-semibold leading-6 text-white mt-10">
+             Contact us
+            </a>
             </div>
           </Dialog.Panel>
         </Dialog>
