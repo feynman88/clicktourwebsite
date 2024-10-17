@@ -50,9 +50,9 @@ export default function Home() {
               Where Every Journey is a New Story Waiting to be Told
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
-              Welcome to Click Tour, where your adventure begins. Whether you’re discovering the ancient treasures of
+              Welcome to Click Tour, where your adventure begins. Whether you are discovering the ancient treasures of
               Egypt, the futuristic landscapes of the UAE, or the wild beauty of Tanzania, we create seamless,
-              personalized travel experiences.
+              personalized travel experiences just for you.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               {/* <a
