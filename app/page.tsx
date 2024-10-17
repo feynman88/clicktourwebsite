@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-slate-100 sm:text-6xl">
-              Where Every Journey is a Story Waiting to be Told
+              Where Every Journey is a New Story Waiting to be Told
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
               Welcome to Click Tour, where your adventure begins. Whether you’re discovering the ancient treasures of
