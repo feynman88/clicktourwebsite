@@ -93,7 +93,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Destinations</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Embark on a journey of discovery with our handpicked destinations. From ancient wonders to modern marvels,
-            we offer unforgettable experiences tailored to your wanderlust. Let us guide you to the world's most
+            we offer unforgettable experiences tailored to your wanderlust. Let us guide you to the worlds most
             captivating places.
           </p>
           <br />

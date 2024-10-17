@@ -63,7 +63,7 @@ export default function DestinationsPage() {
             <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Destinations</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Embark on a journey of discovery with our handpicked destinations. From ancient wonders to modern marvels,
-              we offer unforgettable experiences tailored to your wanderlust. Let us guide you to the world's most
+              we offer unforgettable experiences tailored to your wanderlust. Let us guide you to the worlds most
               captivating places.
             </p>
           </div>
@@ -105,7 +105,7 @@ export default function DestinationsPage() {
                       <p className="text-gray-600 mb-4">{destination.fullDescription}</p>
                       <p className="text-gray-600 mb-4">
                         At Click Tour, we believe in making your {destination.title} adventure not just memorable but
-                        transformative. We're here to help you create moments that resonate deeply, as you connect with
+                        transformative. We are here to help you create moments that resonate deeply, as you connect with
                         lands rich in history, culture, and natural beauty. Come discover with us—where every journey is
                         a story waiting to be told, and every experience is a treasure to cherish.
                       </p>
