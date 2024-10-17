@@ -188,7 +188,6 @@ export default function Home() {
     </div>
 
 
-
 {/* environment */}
  <div className="relative isolate overflow-hidden bg-white ">
       <div className="relative px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
