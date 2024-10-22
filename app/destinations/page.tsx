@@ -15,6 +15,7 @@ const destinations = [
     image:
       "https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3",
   },
+
   {
     title: "UAE's Glamour and Tradition",
     subtitle: "Experience the Contrasts",
@@ -24,6 +25,9 @@ const destinations = [
       "Wander through the historic souks, feel the rush of a desert safari, or enjoy a traditional boat ride along Abu Dhabi's waterfront. The UAE is a land of contrasts where modern marvels stand alongside rich traditions. Experience world-class dining, shop in luxurious malls, or venture into the desert for a night under the stars. From the tallest building in the world to the tranquil oases, the UAE offers a unique blend of experiences that cater to every traveler's desires.",
     image:
       "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3",
+
+    hiddenDescription:
+      "At Click Tour, we create unforgettable experiences that let you explore the UAE's unique contrasts. Discover a land where every moment is an invitation to explore and indulge.",
   },
   {
     title: "Oman's Rich Heritage",
@@ -34,6 +38,8 @@ const destinations = [
       "Wander through the historic souks of Muscat, explore the hidden wadis, and visit ancient forts that echo with tales of the past. Experience the unique charm of Salalah, where lush green landscapes and waterfalls offer a striking contrast to the surrounding desert, especially during the Khareef monsoon season. Oman's rich cultural heritage is evident in its traditional architecture, warm hospitality, and vibrant customs, offering visitors a genuine Arabian experience.",
     image:
       "https://images.unsplash.com/photo-1621680696874-edd80ce57b72?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3",
+    hiddenDescription:
+      "With Click Tour, immerse yourself in Oman's beauty and culture, creating memories of discovery and wonder at every turn.",
   },
   {
     title: "Tanzania's Untamed Beauty",
@@ -44,6 +50,8 @@ const destinations = [
       "From the heights of Mount Kilimanjaro to the depths of the Indian Ocean, Tanzania offers an unparalleled diversity of experiences. Witness the annual wildebeest migration, one of nature's most spectacular events. Relax on Zanzibar's pristine beaches or embark on a thrilling safari to see the Big Five. Tanzania's national parks and conservation areas are home to an incredible variety of wildlife, making it a dream destination for photographers and nature enthusiasts. Immerse yourself in the rich culture of the Maasai people and experience the warmth of Tanzanian hospitality.",
     image:
       "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3",
+    hiddenDescription:
+      "Join Click Tour in Tanzania for a journey that connects you with the wild heart of Africa, creating unforgettable moments in one of the world’s most spectacular settings",
   },
 ];
 
@@ -104,10 +112,7 @@ export default function DestinationsPage() {
                     >
                       <p className="text-gray-600 mb-4">{destination.fullDescription}</p>
                       <p className="text-gray-600 mb-4">
-                        At Click Tour, we believe in making your {destination.title} adventure not just memorable but
-                        transformative. We are here to help you create moments that resonate deeply, as you connect with
-                        lands rich in history, culture, and natural beauty. Come discover with us—where every journey is
-                        a story waiting to be told, and every experience is a treasure to cherish.
+                       {destination.hiddenDescription}
                       </p>
                     </motion.div>
                   )}
