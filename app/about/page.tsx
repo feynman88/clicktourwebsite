@@ -93,8 +93,8 @@ export default function About() {
                       <Image
                         src="https://images.unsplash.com/photo-1568322445389-dc9223328f88?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
-                          width={2187}
-                    height={3280}
+                        width={2187}
+                        height={3280}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -106,8 +106,8 @@ export default function About() {
                         src="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                width={2187}
-                    height={3280}
+                        width={2187}
+                        height={3280}
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -116,8 +116,8 @@ export default function About() {
                         src="https://images.unsplash.com/photo-1547531455-c20b677ded4b?q=80&w=2235&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                                         width={2187}
-                    height={3280}
+                        width={2187}
+                        height={3280}
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -127,20 +127,20 @@ export default function About() {
                       <Image
                         src="https://images.unsplash.com/flagged/photo-1550489518-40f49ba4bf20?q=80&w=2235&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
-                          width={2187}
-                    height={3280}
+                        width={2187}
+                        height={3280}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
                       <Image
-                      src="https://images.unsplash.com/photo-1587975844577-56dfe5d3fca8?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Travel image"
-                    width={2187}
-                    height={3280}
-                    className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
-                        />
+                        src="https://images.unsplash.com/photo-1587975844577-56dfe5d3fca8?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Travel image"
+                        width={2187}
+                        height={3280}
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
@@ -159,7 +159,9 @@ export default function About() {
               <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                 <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                   <p className="text-xl leading-8 text-gray-600">
-                    To craft transformative journeys that go beyond sightseeing, allowing travelers to connect deeply with the rich histories, vibrant cultures, and stunning natural beauty of our destinations, all while ensuring a positive impact on the environment and local communities.
+                    Is to craft transformative journeys that go beyond sightseeing, allowing travelers to connect deeply
+                    with the rich histories, vibrant cultures, and stunning natural beauty of our destinations, all
+                    while ensuring a positive impact on the environment and local communities.
                   </p>
                   <div className="mt-10 max-w-xl text-base leading-7 text-gray-700"></div>
                 </div>
@@ -172,7 +174,9 @@ export default function About() {
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
-                  To be a leading Destination Management Company recognized globally for our commitment to eco-friendly tourism, innovation, and delivering personalized, seamless travel experiences that connect our clients with the heart and soul of the destinations we serve.
+                  To be a leading Destination Management Company recognized globally for our commitment to eco-friendly
+                  tourism, innovation, and delivering personalized, seamless travel experiences that connect our clients
+                  with the heart and soul of the destinations we serve.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700"></div>
               </div>
@@ -187,8 +191,8 @@ export default function About() {
             src="https://images.unsplash.com/photo-1488085061387-422e29b40080?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
             className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
-              width={2187}
-                    height={3280}
+            width={2187}
+            height={3280}
           />
         </div>
 
