@@ -25,7 +25,12 @@ const values = [
       "Striving for excellence in every aspect of our operations, delivering top-quality services and creating exceptional experiences for our clients.",
   },
 ];
-
+export const metadata = {
+  title: "About Click Tour",
+  description:
+    "Discover Click Tour, your gateway to unforgettable travel experiences in Egypt, UAE, Oman, and Tanzania, where we prioritize customer-centricity, innovation, and sustainability.",
+  keywords: "travel, Egypt, UAE, Oman, Tanzania, tourism, vacations, cultural tours, sustainable travel",
+};
 
 export default function About() {
   return (
