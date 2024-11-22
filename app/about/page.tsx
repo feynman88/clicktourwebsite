@@ -13,11 +13,13 @@ const values = [
   },
   {
     name: "Innovation",
-    description: "Embracing cutting-edge technology to enhance the customer experience and streamline operations.",
+    description:
+      "Embracing cutting-edge technology to enhance the customer experience and streamline operations.",
   },
   {
     name: "Integrity",
-    description: "Upholding transparency, honesty, and ethical practices in all business dealings.",
+    description:
+      "Upholding transparency, honesty, and ethical practices in all business dealings.",
   },
   {
     name: "Excellence",
@@ -29,7 +31,8 @@ export const metadata = {
   title: "About Click Tour",
   description:
     "Discover Click Tour, your gateway to unforgettable travel experiences in Egypt, UAE, Oman, and Tanzania, where we prioritize customer-centricity, innovation, and sustainability.",
-  keywords: "travel, Egypt, UAE, Oman, Tanzania, tourism, vacations, cultural tours, sustainable travel",
+  keywords:
+    "travel, Egypt, UAE, Oman, Tanzania, tourism, vacations, cultural tours, sustainable travel",
 };
 
 export default function About() {
@@ -60,7 +63,12 @@ export default function About() {
                 strokeWidth={0}
               />
             </svg>
-            <rect width="100%" height="100%" strokeWidth={0} fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)" />
+            <rect
+              width="100%"
+              height="100%"
+              strokeWidth={0}
+              fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
+            />
           </svg>
           <div
             className="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
@@ -78,23 +86,29 @@ export default function About() {
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-24 sm:pt-48 lg:px-8 lg:pt-24">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">About Click Tour</h1>
+                  <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                    About Click Tour
+                  </h1>
                   <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Welcome to Click Tour, where your adventure begins across multiple breathtaking destinations! Though
-                    we are a new player in the travel industry, our passion for crafting unforgettable journeys is
-                    unmatched. Our team of dedicated travel professionals is committed to offering personalized travel
-                    experiences that showcase the rich history, vibrant culture, and stunning natural beauty of Egypt,
-                    the UAE, Oman, and Tanzania.
+                    Welcome to Click Tour, where your adventure begins across
+                    multiple breathtaking destinations! Though we are a new
+                    player in the travel industry, our passion for crafting
+                    unforgettable journeys is unmatched. Our team of dedicated
+                    travel professionals is committed to offering personalized
+                    travel experiences that showcase the rich history, vibrant
+                    culture, and stunning natural beauty of Egypt, the UAE,
+                    Oman, and Tanzania.
                   </p>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
                     <div className="relative">
                       <Image
-                        src="https://images.unsplash.com/photo-1568322445389-dc9223328f88?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/images/egypt.avif"
                         alt=""
                         width={2187}
                         height={3280}
+                        priority
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -103,21 +117,23 @@ export default function About() {
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
                       <Image
-                        src="https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/images/uae.avif"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         width={2187}
                         height={3280}
+                        priority
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
                       <Image
-                        src="https://images.unsplash.com/photo-1547531455-c20b677ded4b?q=80&w=2235&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/images/zanzibar.avif"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         width={2187}
                         height={3280}
+                        priority
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -125,20 +141,22 @@ export default function About() {
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
                       <Image
-                        src="https://images.unsplash.com/flagged/photo-1550489518-40f49ba4bf20?q=80&w=2235&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/images/egypt2.avif"
                         alt=""
                         width={2187}
                         height={3280}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        priority
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
                       <Image
-                        src="https://images.unsplash.com/photo-1587975844577-56dfe5d3fca8?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="/images/dubai.avif"
                         alt="Travel image"
                         width={2187}
                         height={3280}
+                        priority
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -154,29 +172,49 @@ export default function About() {
         <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <div>
-              <img src="/images/mission.png" alt="" className="w-20 h-20 mb-5 " />
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our mission</h2>
+              <Image
+                src="/images/mission.png"
+                alt=""
+                className="w-20 h-20 mb-5 "
+                width={80}
+                height={80}
+              />
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Our mission
+              </h2>
               <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
                 <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                   <p className="text-xl leading-8 text-gray-600">
-                    Is to craft transformative journeys that go beyond sightseeing, allowing travelers to connect deeply
-                    with the rich histories, vibrant cultures, and stunning natural beauty of our destinations, all
-                    while ensuring a positive impact on the environment and local communities.
+                    Is to craft transformative journeys that go beyond
+                    sightseeing, allowing travelers to connect deeply with the
+                    rich histories, vibrant cultures, and stunning natural
+                    beauty of our destinations, all while ensuring a positive
+                    impact on the environment and local communities.
                   </p>
                   <div className="mt-10 max-w-xl text-base leading-7 text-gray-700"></div>
                 </div>
               </div>
             </div>
 
-            <img src="/images/vision.png" alt="" className="w-20 h-20 mb-5 " />
+            <Image
+              src="/images/vision.png"
+              alt=""
+              className="w-20 h-20 mb-5 "
+              width={80}
+              height={80}
+            />
 
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Vision</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Our Vision
+            </h2>
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl leading-8 text-gray-600">
-                  To be a leading Destination Management Company recognized globally for our commitment to eco-friendly
-                  tourism, innovation, and delivering personalized, seamless travel experiences that connect our clients
-                  with the heart and soul of the destinations we serve.
+                  To be a leading Destination Management Company recognized
+                  globally for our commitment to eco-friendly tourism,
+                  innovation, and delivering personalized, seamless travel
+                  experiences that connect our clients with the heart and soul
+                  of the destinations we serve.
                 </p>
                 <div className="mt-10 max-w-xl text-base leading-7 text-gray-700"></div>
               </div>
@@ -199,12 +237,20 @@ export default function About() {
         {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <img src="/images/customer.png" alt="" className="w-20 h-20 mb-5 " />
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our values</h2>
+            <img
+              src="/images/customer.png"
+              alt=""
+              className="w-20 h-20 mb-5 "
+            />
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Our values
+            </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              We place Customer-Centricity at the forefront, ensuring that every decision is made with our clients best
-              interests in mind. Our dedication to Innovation pushes us to adopt the latest technologies, enhancing the
-              overall customer experience and optimizing our operations.
+              We place Customer-Centricity at the forefront, ensuring that every
+              decision is made with our clients best interests in mind. Our
+              dedication to Innovation pushes us to adopt the latest
+              technologies, enhancing the overall customer experience and
+              optimizing our operations.
             </p>
           </div>
 
